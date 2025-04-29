@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- * Tailwind CLI  -->
+    <link href="./output.css" rel="stylesheet" />
+
+    <!-- * Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- * Metal Mania Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Moo+Lah+Lah&family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Niconne Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- * AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- * ionicon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- * Typing Otomatic -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <title>JawShoes</title>
+  </head>
+  <body class="bg-[#FFFEF4] font-['Poppins']">
+    <!-- Bagian: Navbar -->
+    <!-- <header class="shadow-lg">
+      <nav class="max-w-6xl mx-auto flex justify-between items-center p-2">
+        <div
+          class="font-[Metal_Mania] text-5xl hover:text-amber-900 transition-all ease-in-out duration-500 cursor-pointer"
+        >
+          JawShoes
+        </div>
+
+        <div class="humb-menu flex items-center gap-x-43">
+          <ul
+            class="flex text-lg gap-x-7 px-10 md:flex-row flex-col md:items-center md:gap-[4vw] gap-8"
+          >
+            <li>
+              <a
+                href="# "
+                class="hover:text-red-900 hover:font-bold transition-all ease-in-out duration-500"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-red-900 hover:font-bold transition-all ease-in-out duration-500"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-red-900 hover:font-bold transition-all ease-in-out duration-500"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-red-900 hover:font-bold transition-all ease-in-out duration-500"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-red-900 hover:font-bold transition-all ease-in-out duration-500"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <div class="text-3xl flex gap-x-2 cursor-pointer">
+            <span
+              class="icon-[stash--heart-solid] hover:text-red-600 transition-all ease-in-out duration-500"
+            ></span>
+            <span
+              class="icon-[mdi--shopping-cart] hover:text-red-600 transition-all ease-in-out duration-500"
+            ></span>
+            <span
+              class="icon-[mdi--user] hover:text-red-600 transition-all ease-in-out duration-500"
+            ></span>
+
+            <span
+              name="menu"
+              class="icon-[mdi--menu] md:hidden"
+              onclick="KlikBroSis(this)"
+            ></span>
+          </div>
+        </div>
+      </nav>
+    </header> -->
+
+    <header class="shadow-lg bg-white pb-2 right-0 left-0 top-0 fixed z-20">
+      <nav
+        class="flex justify-between items-center w-[92%] mx-auto p-1.5 md:p-2.5"
+      >
+        <div class="z-20">
+          <h1
+            class="font-[Metal_Mania] text-3xl hover:text-gray-500 transition-all ease-in-out duration-500 cursor-pointer md:text-4xl text-shadow-lg/30"
+          >
+            JawShoes
+          </h1>
+        </div>
+        <!--bagian: List Nav -->
+        <div
+          class="nav-links -z-20 md:z-20 transition-all ease-in-out duration-500 fixed bg-white left-0 top-[-100%] w-full min-h-[40vh] flex items-center px-[6%] md:static md:min-h-fit md:w-auto shadow-md md:shadow-none md:text-base"
+        >
+          <ul
+            class="flex md:flex-row flex-col md:items-center md:gap-[3vw] w-full"
+          >
+            <li>
+              <a
+                href="# "
+                class="hover:text-gray-500 hover:font-bold transition-all ease-in-out duration-500 hover:underline md:hover:no-underline w-full block py-2 hover:bg-[#eef1ee] md:hover:bg-[#FFFEF4] rounded-4xl text-center"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-gray-500 hover:font-bold transition-all ease-in-out duration-500 hover:underline md:hover:no-underline w-full py-2 block hover:bg-[#eef1ee] md:hover:bg-[#FFFEF4] rounded-4xl text-center"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-gray-500 hover:font-bold transition-all ease-in-out duration-500 hover:underline md:hover:no-underline w-full py-2 block hover:bg-[#eef1ee] text-center md:hover:bg-[#FFFEF4] rounded-4xl"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-gray-500 hover:font-bold transition-all ease-in-out duration-500 hover:underline md:hover:no-underline w-full py-2 block hover:bg-[#eef1ee] md:hover:bg-[#FFFEF4] rounded-4xl text-center"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-gray-500 hover:font-bold transition-all ease-in-out duration-500 hover:underline md:hover:no-underline w-full py-2 block hover:bg-[#eef1ee] md:hover:bg-[#FFFEF4] rounded-4xl text-center"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!--bagian: Menu -->
+        <div class="flex items-center gap-3 text-xl cursor-pointer md:text-2xl">
+          <span
+            class="icon-[stash--heart-solid] hover:text-red-600 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span>
+          <span
+            class="icon-[mdi--shopping-cart] hover:text-red-600 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span>
+          <span
+            class="icon-[mdi--user] hover:text-red-600 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span>
+
+          <ion-icon
+            name="menu"
+            class="md:hidden"
+            onclick="KlikBroSis(this)"
+          ></ion-icon>
+        </div>
+      </nav>
+    </header>
+    <!-- Bagian: ./ Navbar -->
+
+    <!-- Bagian: Hero Section -->
+    <section
+      class="home w-[90%] mx-auto flex flex-row p-3 items-center justify-center gap-x-3"
+    >
+      <div class="home-content flex flex-col gap-y-2">
+        <h1 class="text-3xl font-bold text-shadow-lg/10 font-[Modern-Antiqua]">
+          Hi, JawShoes Friends
+        </h1>
+        <h3 class="text-4xl font-medium text-shadow-lg/50">
+          Welcome To <span class="text text-blue-400"></span>
+        </h3>
+        <p
+          class="leading-[25px] text-amber-950 text-shadow-lg/20 pt-3 pr-21 text-justify"
+        >
+          Hi JawShoes friends, this is the right site for you who are looking
+          for your dream shoes. You can find the famous brand shoes you want.
+          Only at JawSoes, happy shopping and warm greetings from us JawShoes
+          friends.
+        </p>
+
+        <a
+          href="#"
+          class="border mr-21 mt-7 text-center p-3 rounded-4xl bg-black text-white hover:bg-blue-400 font-bold animate-bounce transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 "
+          >Our Best Seller Products</a
+        >
+      </div>
+
+      <div class="flex flex-col items-center text-9xl z-1">
+        <div class="">
+          <model-viewer
+            src="/assets/img/Blue_Sprint_Sneaker_0424093542_texture.glb"
+            alt="Sneaker 3D"
+            auto-rotate
+            camera-controls
+            background-color="#ffffff"
+            style="width: 500px; height: 500px"
+          ></model-viewer>
+        </div>
+        <div>
+          <svg
+            width="308"
+            height="72"
+            viewBox="0 0 308 72"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g opacity="0.43" filter="url(#filter0_f_43_2)">
+              <ellipse cx="154" cy="36" rx="145" ry="27" fill="#A3A2A2" />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_43_2"
+                x="0"
+                y="0"
+                width="308"
+                height="72"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="4.5"
+                  result="effect1_foregroundBlur_43_2"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex flex-col absolute right-0 gap-y-4 text-2xl p-3 bg-[#DFDFD5] rounded-tl-2xl rounded-bl-2xl"
+      >
+        <a href="#" 
+          ><span
+            class="icon-[mage--facebook] hover:text-blue-400 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span
+        ></a>
+        <a href="#"
+          ><span
+            class="icon-[ri--instagram-fill] hover:text-red-500 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span
+        ></a>
+        <a href="#"
+          ><span
+            class="icon-[mingcute--whatsapp-fill] hover:text-green-500 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span
+        ></a>
+        <a href="#"
+          ><span
+            class="icon-[mdi--linkedin] hover:text-blue-500 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span
+        ></a>
+      </div>
+    </section>
+    <!-- Bagian: ./ Hero Section -->
+
+    <!-- * JavaScript -->
+    <script src="/assets/js/script.js"></script>
+
+    <!-- Bagian: 3D Shoes -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <!-- Bagian: ./ 3D Shoes -->
+  </body>
+</html>
