@@ -6,6 +6,13 @@
     <!-- * Tailwind CLI  -->
     <link href="./output.css" rel="stylesheet" />
 
+    <!-- icon awesome -->
+     <script
+      src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous">
+
+     </script>
+
+
     <!-- * Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -62,14 +69,14 @@
     <!-- Bagian: Navbar -->
     <header class="shadow-lg bg-white pb-2 right-0 left-0 top-0 fixed z-20">
       <nav
-        class="flex justify-between items-center w-[92%] mx-auto p-1.5 md:p-2.5"
+        class="flex justify-evenly items-center w-[92%] h-15 mx-auto p-1.5 md:p-2.5"
       >
         <div class="z-20">
-          <h1
-            class="font-[Metal_Mania] text-3xl hover:text-gray-500 transition-all ease-in-out duration-500 cursor-pointer md:text-4xl text-shadow-lg/30"
+          <div
+            class="font-[Metal_Mania] text-lg hover:text-blue-500 transition-all ease-in-out duration-500 cursor-pointer md:text-2xl text-shadow-lg/30"
           >
             JawShoes
-          </h1>
+          </div>
         </div>
         <!--bagian: List Nav -->
         <div
@@ -140,19 +147,19 @@
 
     <!-- Bagian: Hero Section -->
     <section
-      class="home w-[90%] mx-auto flex flex-col lg:flex-row lg:gap-x-3 p-3 items-center justify-center max-lg:mt-20"
+      class="home w-[90%] mx-auto flex flex-col lg:flex-row lg:gap-x-3 p-3 items-center justify-center  max-lg:mt-20"
     >
       <div
         class="home-content flex flex-col max-lg:justify-center max-lg:items-center gap-y-2"
       >
-        <h1
-          class="text-xl font-bold text-shadow-lg/10 font-[Modern-Antiqua] md:text-3xl"
+        <div
+          class="text-xl font-bold text-shadow-lg/10 font-[Modern-Antiqua] md:text-5xl"
         >
           Hi, JawShoes Friends
-        </h1>
-        <h3 class="text-2xl md:text-4xl font-medium text-shadow-lg/50">
+        </div>
+        <div class="text-8xl md:text-4xl font-medium text-shadow-lg/50">
           Welcome To <span class="text text-blue-400"></span>
-        </h3>
+        </div>
         <p
           class="leading-[20px] md:leading-[25px] lg:pr-21 text-amber-950 text-shadow-lg/20 pt-3 lg:text-justify text-[12px] md:text-lg max-lg:text-center"
         >
@@ -331,14 +338,52 @@
         ></a>
       </div>
     </section>
+
+    <!-- Products -->
+     <section class="bg-blue-100 py-16 px-6 w-[100%] h-80 ">
+      
+  <div class="max-w-6xl mx-auto text-center mt-20">
+    <div class="text-4xl font-bold text-gray-800 mb-4">Our Shoe Products</div>
+    <div class="text-gray-600 mb-12">Temukan sepatu terbaik untuk gayamu — dari kasual hingga sporty.</div>
+    </div>
+    
+    <div class="relative grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-between text-center items-center mt-20 ">
+      <!-- Product 1 -->
+      <div class="bg-gray-50 p-4 rounded-2xl shadow hover:shadow-lg transition ">
+        <img src="https://images.unsplash.com/photo-1616627981074-9c7d901fc75d?w=400" alt="Sneakers" class="rounded-xl mb-4 w-full h-56 object-cover">
+        <div class="text-lg font-semibold text-gray-800">Classic Sneakers</div>
+        <div class="text-gray-600 text-sm mt-1 mb-2">Nyaman untuk aktivitas harian dan tampil stylish kapan saja.</div>
+        <span class="text-indigo-600 font-bold text-lg">Rp 450.000</span>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1603808033192-082d6913c202?w=400" alt="Running Shoes" class="rounded-xl mb-4 w-full h-56 object-cover">
+        <h3 class="text-lg font-semibold text-gray-800">Running Shoes</h3>
+        <p class="text-gray-600 text-sm mt-1 mb-2">Dirancang untuk lari dan olahraga dengan kenyamanan maksimal.</p>
+        <span class="text-indigo-600 font-bold text-lg">Rp 620.000</span>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1618354691213-7a5cfbcd9481?w=400" alt="Leather Boots" class="rounded-xl mb-4 w-full h-56 object-cover">
+        <h3 class="text-lg font-semibold text-gray-800">Leather Boots</h3>
+        <p class="text-gray-600 text-sm mt-1 mb-2">Tampil elegan dan tahan lama, cocok untuk acara formal maupun kasual.</p>
+        <span class="text-indigo-600 font-bold text-lg">Rp 780.000</span>
+      </div>
+    </div>
+  
+</section>
+
     
     <!-- Bagian: Our Services -->
-    <section class="bg-[#FFFEF4] py-20">
-  <div class="max-w-6xl mx-auto px-6 text-center">
-    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Our Services</h2>
-    <p class="text-gray-600 text-base md:text-lg max-w-2xl mx-auto mb-16">
+    <section class=" bg-[#d2c100] py-20 h-93 mt-20">
+  <div class="  max-w-6xl px-9 text-center">
+    <div class="text-3xl md:text-4xl font-bold text-gray-900 mt-10">Our Services</div>  
+    <div class="text-gray-600 text-base md:text-lg max-w-2xl mx-auto mb-16">
       We don’t just sell shoes — we offer services designed to make your shopping experience seamless and satisfying.
-    </p>
+    </div>
+    </div>
     
     <div class="flex flex-col md:flex-row justify-around gap-10 text-center">
       <!-- Service 1 -->
@@ -375,20 +420,45 @@
       </div>
     </div>
     
-</section>
+  </section>
 
     <!-- Bagian: Footer -->
-    <footer class="bg-[#9F9F98]">
-      <div>
-        <div>
-          <h1>Contact</h1>
-          <ul>
-            <span class="icon-[ic--baseline-home]"></span>
-            <li>083893409809</li>
-          </ul>
-        </div>
+   <footer class="bg-gray-800 text-gray-300 py-8">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 text-center justify-evenly">
+    <!-- Logo dan Deskripsi -->
+    <div>
+      <h2 class="text-xl font-bold text-black mb-4">ShoesStore</h2>
+      <p class="text-sm">Toko sepatu terbaik untuk segala kebutuhanmu. Kualitas terjamin, harga bersaing.</p>
+    </div>
+
+    <!-- Navigasi -->
+    <div>
+      <h3 class="text-lg font-semibold text-white mb-4">Navigasi</h3>
+      <ul class="space-y-2">
+        <li><a href="#" class="hover:text-white">Beranda</a></li>
+        <li><a href="#" class="hover:text-white">Produk</a></li>
+        <li><a href="#" class="hover:text-white">Tentang Kami</a></li>
+        <li><a href="#" class="hover:text-white">Kontak</a></li>
+      </ul>
+    </div>
+
+    <!-- Sosial Media -->
+    <div>
+      <h3 class="text-lg font-semibold text-white mb-4">Ikuti Kami</h3>
+      <div class="flex space-x-4 mr-5">
+        <a href="#" class="hover:text-white"><i class="icon-[mage--facebook]"></i> Facebook</a>
+        <a href="#" class="hover:text-white"><i class="icon-[ri--instagram-fill]"></i> Instagram</a>
+        <a href="#" class="hover:text-white"><span class="icon-[logos--twitter]"></span> Twitter</a>
       </div>
-    </footer>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center text-sm text-gray-500 mt-9">
+    © 2025 ShoesStore. All rights reserved.
+  </div>
+</footer>
+
     <!-- Bagian: ./ Footer -->
 
     <!-- * JavaScript -->
