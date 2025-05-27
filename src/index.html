@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- * Tailwind CLI  -->
+    <link href="./output.css" rel="stylesheet" />
+
+    <!-- icon awesome -->
+     <script
+      src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous">
+
+     </script>
+
+
+    <!-- * Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- * Metal Mania Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Moo+Lah+Lah&family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Niconne Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- * AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- * ionicon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- * Typing Otomatic -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- * Favicon -->
+    <link rel="shortcut icon" href="/Revisi1/assets/img/1785348.png">
+
+    <title>JawShoes</title>
+  </head>
+  <body class="bg-[#FFFEF4] font-['Poppins']">
+    <!-- Bagian: Navbar -->
+    <header class="shadow-lg bg-white pb-2 right-0 left-0 top-0 fixed z-20">
+      <nav
+        class="flex justify-evenly items-center w-[92%] h-15 mx-auto p-1.5 md:p-2.5"
+      >
+        <div class="z-20">
+          <div
+            class="font-[Metal_Mania] text-lg hover:text-blue-500 transition-all ease-in-out duration-500 cursor-pointer md:text-2xl text-shadow-lg/30"
+          >
+            JawShoes
+          </div>
+        </div>
+        <!--bagian: List Nav -->
+        <div
+          class="nav-links -z-20 md:z-20 transition-all ease-in-out duration-500 fixed bg-white left-0 top-[-100%] w-full min-h-[40vh] flex items-center px-[6%] md:static md:min-h-fit md:w-auto shadow-md md:shadow-none md:text-base"
+        >
+          <ul
+            class="flex md:flex-row flex-col md:items-center md:gap-[3vw] w-full"
+          >
+            <li>
+              <a
+                href="# "
+                class="hover:text-gray-500 hover:font-bold transition-all ease-in-out duration-500 hover:underline md:hover:no-underline w-full block py-2 hover:bg-[#eef1ee] md:hover:bg-[#FFFEF4] rounded-4xl text-center"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-gray-500 hover:font-bold transition-all ease-in-out duration-500 hover:underline md:hover:no-underline w-full py-2 block hover:bg-[#eef1ee] md:hover:bg-[#FFFEF4] rounded-4xl text-center"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-gray-500 hover:font-bold transition-all ease-in-out duration-500 hover:underline md:hover:no-underline w-full py-2 block hover:bg-[#eef1ee] text-center md:hover:bg-[#FFFEF4] rounded-4xl"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-gray-500 hover:font-bold transition-all ease-in-out duration-500 hover:underline md:hover:no-underline w-full py-2 block hover:bg-[#eef1ee] md:hover:bg-[#FFFEF4] rounded-4xl text-center"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hover:text-gray-500 hover:font-bold transition-all ease-in-out duration-500 hover:underline md:hover:no-underline w-full py-2 block hover:bg-[#eef1ee] md:hover:bg-[#FFFEF4] rounded-4xl text-center"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!--bagian: Menu -->
+        <div class="flex items-center gap-3 text-xl cursor-pointer md:text-2xl">
+          <span
+            class="icon-[stash--heart-solid] hover:text-red-600 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span>
+          <span
+            class="icon-[mdi--shopping-cart] hover:text-red-600 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span>
+          <span
+            class="icon-[mdi--user] hover:text-red-600 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span>
+
+          <ion-icon
+            name="menu"
+            class="md:hidden"
+            onclick="KlikBroSis(this)"
+          ></ion-icon>
+        </div>
+      </nav>
+    </header>
+    <!-- Bagian: ./ Navbar -->
+
+    <!-- Bagian: Hero Section -->
+    <section
+      class="home w-[90%] mx-auto flex flex-col lg:flex-row lg:gap-x-3 p-3 items-center justify-center  max-lg:mt-20"
+    >
+      <div
+        class="home-content flex flex-col max-lg:justify-center max-lg:items-center gap-y-2"
+      >
+   
+        <div
+          class="text-xl font-bold text-shadow-lg/10 font-[Modern-Antiqua] md:text-5xl"
+        >
+          Hi, JawShoes Friends
+        </div>
+        <div class="text-8xl md:text-4xl font-medium text-shadow-lg/50">
+          Welcome To <span class="text text-blue-400"></span>
+        </div>
+        <p
+          class="leading-[20px] md:leading-[25px] lg:pr-21 text-amber-950 text-shadow-lg/20 pt-3 lg:text-justify text-[12px] md:text-lg max-lg:text-center"
+        >
+          Hi JawShoes friends, this is the right site for you who are looking
+          for your dream shoes. You can find the famous brand shoes you want.
+          Only at JawSoes, happy shopping and warm greetings from us JawShoes
+          friends.
+        </p>
+  
+        <div
+          class="flex flex-row max-md:text-base md:text-bsae gap-x-6 items-center justify-center mt-5 lg:hidden"
+        >
+          <a
+            href="#"
+            class="bg-[#DFDFD5] border-2 border-amber-950 hover:border-black hover:bg-[#9F9F98] rounded-full md:size-12 size-10 flex justify-center items-center"
+            ><span
+              class="icon-[mage--facebook] hover:text-blue-400 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+            ></span
+          ></a>
+          <a
+            href="#"
+            class="bg-[#DFDFD5] border-2 border-amber-950 hover:border-black hover:bg-[#9F9F98] rounded-full md:size-12 size-10 flex justify-center items-center"
+            ><span
+              class="icon-[ri--instagram-fill] hover:text-red-500 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+            ></span
+          ></a>
+          <a
+            href="#"
+            class="bg-[#DFDFD5] border-2 border-amber-950 hover:border-black hover:bg-[#9F9F98] rounded-full md:size-12 size-10 flex justify-center items-center"
+            ><span
+              class="icon-[mingcute--whatsapp-fill] hover:text-green-500 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+            ></span
+          ></a>
+          <a
+            href="#"
+            class="bg-[#DFDFD5] border-2 border-amber-950 hover:border-black hover:bg-[#9F9F98] rounded-full md:size-12 size-10 flex justify-center items-center"
+            ><span
+              class="icon-[mdi--linkedin] hover:text-blue-500 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+            ></span
+          ></a>
+        </div>
+
+        <a
+          href="#"
+          class="mt-7 text-center md:text-base text-[12px] p-2 rounded-4xl bg-black text-white hover:bg-blue-400 font-bold animate-bounce transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 max-lg:w-full lg:mr-21"
+          >Our Best Seller Products</a
+        >
+      </div>
+      
+
+      <!-- ! 3D Shoe -->
+      <div class="flex flex-col items-center z-1">
+        <!-- ! Sepatu di Ukuran Mobile -->
+        <div class="md:hidden">
+          <model-viewer
+            src="/assets/img/Blue_Sprint_Sneaker_0424093542_texture.glb"
+            alt="Sneaker 3D"
+            auto-rotate
+            camera-controls
+            background-color="#ffffff"
+            style="width: 300px; height: 300px"
+          ></model-viewer>
+        </div>
+
+        <!-- ! Shadow sepatu di Ukuran Mobile -->
+        <div class="md:hidden">
+          <svg
+            width="222"
+            height="56"
+            viewBox="0 0 222 56"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g opacity="0.43" filter="url(#filter0_f_43_2)">
+              <ellipse cx="111" cy="28" rx="102" ry="19" fill="#A3A2A2" />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_43_2"
+                x="0"
+                y="0"
+                width="222"
+                height="56"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="4.5"
+                  result="effect1_foregroundBlur_43_2"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+
+        <!-- ! Sepatu di Ukuran Tablet - Desktop -->
+        <div class="hidden md:block">
+          <model-viewer
+            src="/assets/img/Blue_Sprint_Sneaker_0424093542_texture.glb"
+            alt="Sneaker 3D"
+            auto-rotate
+            camera-controls
+            background-color="#ffffff"
+            style="width: 500px; height: 500px"
+          ></model-viewer>
+        </div>
+
+        <!-- ! Shadow sepatu di Ukuran Tablet - Desktop -->
+        <div class="hidden md:block">
+          <svg
+            width="308"
+            height="72"
+            viewBox="0 0 308 72"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g opacity="0.43" filter="url(#filter0_f_66_2)">
+              <ellipse cx="154" cy="36" rx="145" ry="27" fill="#A3A2A2" />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_66_2"
+                x="0"
+                y="0"
+                width="308"
+                height="72"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="4.5"
+                  result="effect1_foregroundBlur_66_2"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+      </div>
+
+      <!-- ! Sosmed -->
+      <div
+        class="flex flex-col absolute right-0 gap-y-4 text-2xl p-3 bg-[#DFDFD5] rounded-tl-2xl rounded-bl-2xl max-lg:hidden hover:border-2"
+      >
+        <a href="#"
+          ><span
+            class="icon-[mage--facebook] hover:text-blue-400 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span
+        ></a>
+        <a href="#"
+          ><span
+            class="icon-[ri--instagram-fill] hover:text-red-500 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span
+        ></a>
+        <a href="#"
+          ><span
+            class="icon-[mingcute--whatsapp-fill] hover:text-green-500 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span
+        ></a>
+        <a href="#"
+          ><span
+            class="icon-[mdi--linkedin] hover:text-blue-500 transition delay-150 duration-300 ease-in hover:-translate-y-1 hover:scale-110"
+          ></span
+        ></a>
+      </div>
+    </section>
+
+    <!-- Products -->
+     <section class="bg-blue-100 py-16 px-6  h-80 ">
+      <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+      <header class="text-center">
+      <div class="text-4xl font-bold text-gray-800 mb-4 ">Our Shoe Products</div>
+       <div class="text-gray-600 mb-12">Temukan sepatu terbaik untuk gayamu — dari kasual hingga sporty.</div>
+  
+    </div>
+    </header>
+
+    <!-- mt-8 grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-between text-center items-center -->
+    <div class="mt-8 grid gap-8 sm:grid-cols-2 md:grid-cols-3 items-center-safe justify-between text-center lg:grid-cols-3  ">
+      <!-- Product 1 -->
+      <div class="bg-gray-50 p-4 rounded-2xl py-8 shadow hover:shadow-lg transition ">
+        <img src="https://images.unsplash.com/photo-1616627981074-9c7d901fc75d?w=400" alt="Sneakers" class="rounded-xl mb-4 w-full h-56 object-cover">
+        <div class="text-lg font-semibold text-gray-800">Classic Sneakers</div>
+        <div class="text-gray-600 text-sm mt-1 mb-2">Nyaman untuk aktivitas harian dan tampil stylish kapan saja.</div>
+        <span class="text-indigo-600 font-bold text-lg">Rp 450.000</span>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1603808033192-082d6913c202?w=400" alt="Running Shoes" class="rounded-xl mb-4 w-full h-56 object-cover">
+        <h3 class="text-lg font-semibold text-gray-800">Running Shoes</h3>
+        <p class="text-gray-600 text-sm mt-1 mb-2">Dirancang untuk lari dan olahraga dengan kenyamanan maksimal.</p>
+        <span class="text-indigo-600 font-bold text-lg">Rp 620.000</span>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <img src="https://images.unsplash.com/photo-1618354691213-7a5cfbcd9481?w=400" alt="Leather Boots" class="rounded-xl mb-4 w-full h-56 object-cover">
+        <h3 class="text-lg font-semibold text-gray-800">Leather Boots</h3>
+        <p class="text-gray-600 text-sm mt-1 mb-2">Tampil elegan dan tahan lama, cocok untuk acara formal maupun kasual.</p>
+        <span class="text-indigo-600 font-bold text-lg">Rp 780.000</span>
+      </div>
+    </div>
+  
+</section>
+
+    
+    <!-- Bagian: Our Services -->
+    <section class=" bg-[#d2c100] py-20 h-93 mt-20">
+  <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+    <header class="text-center">
+    <div class="text-3xl md:text-4xl font-bold text-gray-900 mt-10">Our Services</div>  
+    <div class="text-gray-600 mb-12">
+      We don’t just sell shoes — we offer services designed to make <br> your shopping experience seamless and satisfying. </div>
+   </div>
+    </header>
+
+    <div class="flex flex-col md:flex-row justify-around gap-10 text-center">
+      <!-- Service 1 -->
+      <div class="flex-1 bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition duration-300">
+        <div class="text-5xl text-black mb-4">
+          <ion-icon name="car-outline"></ion-icon>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Fast Delivery</h3>
+        <p class="text-gray-600 text-sm md:text-base">
+          Express delivery with guaranteed security of your package.
+        </p>
+      </div>
+    
+      <!-- Service 2 -->
+      <div class="flex-1 bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition duration-300">
+        <div class="text-5xl text-black mb-4">
+          <ion-icon name="refresh-outline"></ion-icon>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">10 Days Replacement</h3>
+        <p class="text-gray-600 text-sm md:text-base">
+          Returns and exchanges are available within 10 days of purchase.
+        </p>
+      </div>
+    
+      <!-- Service 3 -->
+      <div class="flex-1 bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition duration-300">
+        <div class="text-5xl text-black mb-4">
+          <ion-icon name="headset-outline"></ion-icon>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">24 x 7 Support</h3>
+        <p class="text-gray-600 text-sm md:text-base">
+          Our team is ready to assist you 24/7 for all product related questions.
+        </p>
+      </div>
+    </div>
+    
+  </section>
+
+    <!-- Bagian: Footer -->
+   <footer class="bg-gray-800 text-gray-300 py-8">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 text-center justify-evenly">
+    <!-- Logo dan Deskripsi -->
+    <div>
+      <h2 class="text-xl font-bold text-black mb-4">ShoesStore</h2>
+      <p class="text-sm">Toko sepatu terbaik untuk segala kebutuhanmu. Kualitas terjamin, harga bersaing.</p>
+    </div>
+
+    <!-- Navigasi -->
+    <div>
+      <h3 class="text-lg font-semibold text-white mb-4">Navigasi</h3>
+      <ul class="space-y-2">
+        <li><a href="#" class="hover:text-white">Beranda</a></li>
+        <li><a href="#" class="hover:text-white">Produk</a></li>
+        <li><a href="#" class="hover:text-white">Tentang Kami</a></li>
+        <li><a href="#" class="hover:text-white">Kontak</a></li>
+      </ul>
+    </div>
+
+    <!-- Sosial Media -->
+    <div>
+      <h3 class="text-lg font-semibold text-white mb-4">Ikuti Kami</h3>
+      <div class="flex space-x-4 mr-5">
+        <a href="#" class="hover:text-white"><i class="icon-[mage--facebook]"></i> Facebook</a>
+        <a href="#" class="hover:text-white"><i class="icon-[ri--instagram-fill]"></i> Instagram</a>
+        <a href="#" class="hover:text-white"><span class="icon-[logos--twitter]"></span> Twitter</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center text-sm text-gray-500 mt-9">
+    © 2025 ShoesStore. All rights reserved.
+  </div>
+</footer>
+
+    <!-- Bagian: ./ Footer -->
+
+    <!-- * JavaScript -->
+    <script src="/assets/js/script.js"></script>
+
+    <!-- Bagian: 3D Shoes -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <!-- Bagian: ./ 3D Shoes -->
+  </body>
+</html>
